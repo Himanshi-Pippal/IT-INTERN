@@ -1,0 +1,169 @@
+body {
+    background-image: url('4.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    color: #060404;
+    position: relative;
+    text-align: center;
+}
+
+.form-container {
+    background-image: url('5.jpg');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.tab-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.tab-button:hover {
+    background-color: #0056b3;
+}
+
+.form-content {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Ensure text is readable on dark backgrounds */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-content.active {
+    display: block;
+}
+
+/* Add background images to form containers */
+#login {
+    background-image: url('3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #register {
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #contact {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* make the div full height of the viewport */
+    padding: 20px;
+  }
+
+.form-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for form elements */
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.contact-details {
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    float: right;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
